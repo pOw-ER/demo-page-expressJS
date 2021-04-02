@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+nav {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+nav h2 {
+  color: #01996d;
+}
+.start-button {
+  text-decoration: none;
+  background-color: #01996d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  padding-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  background: url("/hero.png") center/cover no-repeat;
+  padding: 160px 10% 250px;
+}
+header h1 {
+  color: #01996d;
+  width: 30%;
+  font-size: 3rem;
+}
+header p {
+  width: 28%;
+  color: #484848;
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+main {
+  padding: 100px 10%;
+}
+#home-stepsheader-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+#stepsheader {
+  width: 40%;
+}
+#stepsheader h2 {
+  font-size: 2.5rem;
+  color: #01996d;
+}
+#home-stepsheader-section > p {
+  color: #484848;
+  line-height: 25px;
+  width: 40%;
+}
+#home-steps-section {
+  display: flex;
+  justify-content: space-between;
+}
+#home-steps-section img {
+  width: 100%;
+}
+/* .steps-title {
+} */
+.steps-title span {
+  font-size: 7rem;
+  color: #01996d40;
+}
+.steps-title p {
+  margin-top: -40px;
+  margin-left: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#step1 > p,
+#step2 > p,
+#step3 > p {
+  margin-bottom: 40px;
+  color: #484848;
+  line-height: 25px;
+}
+#step1,
+#step2,
+#step3 {
+  width: 25%;
+}
+#step2 {
+  margin-top: 200px;
+}
+
+footer {
+  padding: 50px 10%;
+  color: #fff;
+  background-color: #245852;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  padding-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ****Solutions****  */
+
+#solutions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#solutions > div {
+  width: 40%;
+}
+#solutions > div h2 {
+  font-size: 2.5rem;
+}
+#solutions > div p {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#solutions > img {
+  width: 50%;
+}
+
+/* ****Community****  */
+#community {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#community > div:nth-of-type(1) {
+  width: 50%;
+  background: #01996d40;
+}
+#community > div:nth-of-type(2) {
+  width: 40%;
+}
+#community > div h2 {
+  font-size: 2.5rem;
+  color: #01996d;
+}
+#community > div p {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+#community > div img {
+  width: 60%;
+  padding-left: 15%;
+}
